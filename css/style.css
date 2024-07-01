@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(109, 138, 124);
+}
+.Calculadora{ 
+    display: grid;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(5, 5, 5);
+    border-radius: 10%;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(5,auto);
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    padding: 20px;
+}
+.tecla, .operacion{
+    background-color: rgb(232, 220, 220);
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 10px;
+}
+.tecla:hover{   
+    background-color: rgb(158, 154, 154);
+}
+.operacion:hover{
+   background-color:rgb(145, 145, 145);
+}
+#Pantalla{
+    background-color: rgb(217, 236, 226);
+    color: white;
+    grid-column: 1 / 5;
+    height: 150px;
+    font-size: 50px;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 10px;
+}
+#igual{
+    background-color:rgb(94, 212, 84);
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid #000; 
+    border-radius: 10px; 
+    padding: 20px;
+}
+#borrar{
+    background-color:rgb(94, 212, 84);
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 10px;
+}  
+#operacion{
+    background-color:rgb(94, 212, 84);
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid #000; 
+    border-radius: 5px; 
+    padding: 10px;
+}
+
